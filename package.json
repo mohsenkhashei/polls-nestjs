@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"workspaces": [
 		"client",
-		"server"
+		"server",
+		"shared"
 	],
 	"scripts": {
 		"docker:compose": "docker-compose up -d",
@@ -29,7 +30,7 @@
 	"author": "Mohsen Khashei",
 	"license": "ISC",
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/mohsenkhashei/polls-nestjs/pulls"
 	},
 	"homepage": "",
 	"devDependencies": {
